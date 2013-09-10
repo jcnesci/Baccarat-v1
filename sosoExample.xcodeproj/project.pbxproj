@@ -12,9 +12,9 @@
 		E009115F16B31E360040329E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E009115E16B31E360040329E /* CoreVideo.framework */; };
 		E009116116B31EF30040329E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E009116016B31EF30040329E /* Accelerate.framework */; };
 		E034CFC615505F41007091C2 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E034CFC415505F41007091C2 /* testApp.cpp */; };
-		E0C39A9B17DA94F000006F7E /* bacLobbyObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0C39A9A17DA94F000006F7E /* bacLobbyObject.cpp */; };
-		E0C39A9E17DAA5C500006F7E /* bacLightMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0C39A9D17DAA5C500006F7E /* bacLightMatrix.cpp */; };
-		E0C39AA117DAA60700006F7E /* bacLightObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0C39AA017DAA60700006F7E /* bacLightObject.cpp */; };
+		E07F947117DF7F44000FF52D /* bacLightMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E07F946B17DF7F44000FF52D /* bacLightMatrix.cpp */; };
+		E07F947217DF7F44000FF52D /* bacLightObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E07F946D17DF7F44000FF52D /* bacLightObject.cpp */; };
+		E07F947317DF7F44000FF52D /* bacLobbyObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E07F946F17DF7F44000FF52D /* bacLobbyObject.cpp */; };
 		E0F856F9154729DB00896B77 /* ofxAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0F856D3154729DB00896B77 /* ofxAnimation.cpp */; };
 		E0F856FA154729DB00896B77 /* ofxArcObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0F856D5154729DB00896B77 /* ofxArcObject.cpp */; };
 		E0F856FB154729DB00896B77 /* ofxCircleObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0F856D7154729DB00896B77 /* ofxCircleObject.cpp */; };
@@ -90,12 +90,12 @@
 		E009116016B31EF30040329E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		E034CFC415505F41007091C2 /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
 		E034CFC515505F41007091C2 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
-		E0C39A9917DA940F00006F7E /* bacLobbyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bacLobbyObject.h; sourceTree = "<group>"; };
-		E0C39A9A17DA94F000006F7E /* bacLobbyObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bacLobbyObject.cpp; sourceTree = "<group>"; };
-		E0C39A9C17DAA58500006F7E /* bacLightMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bacLightMatrix.h; sourceTree = "<group>"; };
-		E0C39A9D17DAA5C500006F7E /* bacLightMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bacLightMatrix.cpp; sourceTree = "<group>"; };
-		E0C39A9F17DAA5F900006F7E /* bacLightObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bacLightObject.h; sourceTree = "<group>"; };
-		E0C39AA017DAA60700006F7E /* bacLightObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bacLightObject.cpp; sourceTree = "<group>"; };
+		E07F946B17DF7F44000FF52D /* bacLightMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bacLightMatrix.cpp; sourceTree = "<group>"; };
+		E07F946C17DF7F44000FF52D /* bacLightMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bacLightMatrix.h; sourceTree = "<group>"; };
+		E07F946D17DF7F44000FF52D /* bacLightObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bacLightObject.cpp; sourceTree = "<group>"; };
+		E07F946E17DF7F44000FF52D /* bacLightObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bacLightObject.h; sourceTree = "<group>"; };
+		E07F946F17DF7F44000FF52D /* bacLobbyObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bacLobbyObject.cpp; sourceTree = "<group>"; };
+		E07F947017DF7F44000FF52D /* bacLobbyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bacLobbyObject.h; sourceTree = "<group>"; };
 		E0F856D3154729DB00896B77 /* ofxAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAnimation.cpp; sourceTree = "<group>"; };
 		E0F856D4154729DB00896B77 /* ofxAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxAnimation.h; sourceTree = "<group>"; };
 		E0F856D5154729DB00896B77 /* ofxArcObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxArcObject.cpp; sourceTree = "<group>"; };
@@ -275,12 +275,6 @@
 				E0F856F6154729DB00896B77 /* ofxTextObject.h */,
 				E0F856F7154729DB00896B77 /* ofxVideoPlayerObject.cpp */,
 				E0F856F8154729DB00896B77 /* ofxVideoPlayerObject.h */,
-				E0C39A9917DA940F00006F7E /* bacLobbyObject.h */,
-				E0C39A9A17DA94F000006F7E /* bacLobbyObject.cpp */,
-				E0C39A9C17DAA58500006F7E /* bacLightMatrix.h */,
-				E0C39A9D17DAA5C500006F7E /* bacLightMatrix.cpp */,
-				E0C39A9F17DAA5F900006F7E /* bacLightObject.h */,
-				E0C39AA017DAA60700006F7E /* bacLightObject.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -322,6 +316,12 @@
 			isa = PBXGroup;
 			children = (
 				E034CFC415505F41007091C2 /* testApp.cpp */,
+				E07F946B17DF7F44000FF52D /* bacLightMatrix.cpp */,
+				E07F946C17DF7F44000FF52D /* bacLightMatrix.h */,
+				E07F946D17DF7F44000FF52D /* bacLightObject.cpp */,
+				E07F946E17DF7F44000FF52D /* bacLightObject.h */,
+				E07F946F17DF7F44000FF52D /* bacLobbyObject.cpp */,
+				E07F947017DF7F44000FF52D /* bacLobbyObject.h */,
 				E034CFC515505F41007091C2 /* testApp.h */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 			);
@@ -444,9 +444,9 @@
 				E0FE9DF316402F0B005A720F /* ofxGridSystem.cpp in Sources */,
 				E0FE9DF416402F0B005A720F /* ofxLineStripObject.cpp in Sources */,
 				E0FE9DF516402F0B005A720F /* ofxQuadStripObject.cpp in Sources */,
-				E0C39A9B17DA94F000006F7E /* bacLobbyObject.cpp in Sources */,
-				E0C39A9E17DAA5C500006F7E /* bacLightMatrix.cpp in Sources */,
-				E0C39AA117DAA60700006F7E /* bacLightObject.cpp in Sources */,
+				E07F947117DF7F44000FF52D /* bacLightMatrix.cpp in Sources */,
+				E07F947217DF7F44000FF52D /* bacLightObject.cpp in Sources */,
+				E07F947317DF7F44000FF52D /* bacLobbyObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
